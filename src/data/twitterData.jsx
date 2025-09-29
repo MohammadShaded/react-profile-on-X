@@ -139,55 +139,57 @@ const twitterData = {
         {
             id: 1,
             name: 'Home',
-            icon: 'HomeIcon', // (لتمثيل الأيقونة)
+            icon: 'fa-solid fa-house outline', // outline style (unfilled)
             path: '/home',
+            active: true,
+
         },
         {
             id: 2,
             name: 'Explore',
-            icon: 'ExploreIcon',
+            icon: 'fa-solid fa-magnifying-glass', // lens/search icon
             path: '/explore',
         },
         {
             id: 3,
             name: 'Notifications',
-            icon: 'NotificationsIcon',
+            icon: 'fa-solid fa-bell',
             path: '/notifications',
         },
         {
             id: 4,
             name: 'Messages',
-            icon: 'MessagesIcon',
+            icon: 'fa-solid fa-envelope',
             path: '/messages',
         },
         {
             id: 5,
             name: 'Lists',
-            icon: 'ListsIcon',
+            icon: 'fa-solid fa-file-lines', // paper with horizontal lines
             path: '/lists',
         },
         {
             id: 6,
             name: 'Bookmarks',
-            icon: 'BookmarksIcon',
+            icon: 'fa-regular fa-bookmark outline', // unfilled bookmark
             path: '/bookmarks',
         },
         {
             id: 7,
             name: 'Communities',
-            icon: 'CommunitiesIcon',
+            icon: 'fa-solid fa-user-group outline', // use solid family glyph and style as outline via CSS
             path: '/communities',
         },
         {
             id: 8,
             name: 'Profile',
-            icon: 'ProfileIcon',
+            icon: 'fa-regular fa-user outline', // unfilled profile
             path: '/profile',
         },
         {
             id: 9,
             name: 'More',
-            icon: 'MoreIcon',
+            icon: 'fa-solid fa-ellipsis-h icon-circle', // dots inside a circular background (styled in CSS)
             path: '/more',
         },
     ],

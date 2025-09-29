@@ -13,8 +13,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.5px;
     font-weight: 400;
-    /* background-color: #000;
-    color: #fff; */
+
 }
 
 /* App container */
@@ -39,3 +38,109 @@ button {
 .text-muted {
     color: #8899a6;
 }
+
+/* Twitter Mockup Page Styles */
+.twitter-mockup-page {
+    display: flex;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Sidebar Left Styles */
+.sidebar-left {
+    background-color: #000;
+    width: 240px;
+    border-right: 1px solid #151515;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 12px;
+}
+
+/* Navigation list */
+.sidebar-left nav {
+    width: 100%;
+}
+
+/* X logo at top of sidebar */
+.x-logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 0 14px 12px;
+}
+
+.x-logo img {
+    width: 28px;
+    height: auto;
+    display: block;
+}
+
+.sidebar-left ul {
+    list-style: none;
+    width: 100%;
+}
+
+.nav-item {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 12px;
+    color: #e6eef3;
+    border-radius: 999px;
+    transition: background-color 120ms ease, color 120ms ease;
+}
+
+.nav-icon {
+    font-size: 20px;
+    width: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+}
+
+/* Button base styles */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 2px solid rgba(29,155,240,0.25);
+    outline-offset: 2px;
+}
+
+/* Tweet button (primary) */
+.btn-tweet {
+    margin-top: 12px;
+    background-color: #1d9bf0;
+    color: #fff;
+    padding: 10px 24px;
+    font-size: 16px;
+    width: 90%;
+    
+}
+.btn-tweet:hover { background-color: #1aa3f3; }
+
+/* Follow button (secondary) */
+.btn-follow {
+    background-color: #fff;
+    color: #1d9bf0;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.btn-follow:hover { background-color: #f2f8ff; }
