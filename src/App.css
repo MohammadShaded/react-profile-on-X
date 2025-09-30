@@ -60,12 +60,6 @@ button {
     padding: 18px 12px;
 }
 
-/* .content-area {
-    background-color: #151515;
-    width: 600px;
-    height: 100vh;
-    overflow-y: auto;
-} */
 
 /* Navigation list */
 .sidebar-left nav {
@@ -172,14 +166,17 @@ button {
     cursor: pointer;
     transition: background-color 120ms ease;
 }
+
 .user-profile-minimal:hover {
     background-color: #151515;
 }
+
 .avatar-small {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
+
 .user-info {
     display: flex;
     flex-direction: column;

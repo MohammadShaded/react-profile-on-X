@@ -1,0 +1,86 @@
+/* Content area */
+
+.main-content {
+    width: 600px;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #151515;
+}
+
+.profile-header-root {}
+
+.profile-header-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 16px;
+    padding-bottom: 0;
+
+}
+
+.profile-header-top .icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profile-header-top .title {
+    font-size: 18px;
+}
+
+.profile-header-top .sub {
+    color: #8899a6;
+    font-size: 14px;
+}
+
+.profile-header-cover-wrap {
+    position: relative;
+}
+
+.profile-cover {
+    width: 100%;
+}
+
+.profile-avatar {
+    width: 150px;
+    position: absolute;
+    left: 5px;
+    top: 125px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.profile-info {
+    padding: 0 16px;
+    padding-top: 80px;
+    position: relative;
+}
+
+.profile-info-buttons {
+    display: flex;
+    gap: 10px;
+
+    position: absolute;
+    right: 16px;
+    top: 5px;
+    /* background-color: red; */
+}
+
+.profile-info-buttons .icon {
+    font-size: 20px;
+}
+
+.profile-info-buttons .icon-btn {
+    background-color: #000;
+    color: white;
+    border: 2px solid #2c2c2c;
+    padding: 6px 10px;
+    border-radius: 50%;
+}
+
+.profile-info-buttons .Following-btn {
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #2c2c2c;
+}

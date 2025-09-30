@@ -7,6 +7,7 @@ const twitterData = {
         joinDate: 'July 2013',
         followingCount: 267,
         followersCount: '705.1K',
+        postsCount: '2,611',
         followedBy: [
             'Mohamed Kulkhun',
             'Yazan Alasade',
@@ -153,19 +154,19 @@ const twitterData = {
         {
             id: 3,
             name: 'Notifications',
-            icon: 'fa-solid fa-bell',
+            icon: 'fa-regular  fa-bell',
             path: '/notifications',
         },
         {
             id: 4,
             name: 'Messages',
-            icon: 'fa-solid fa-envelope',
+            icon: 'fa-regular  fa-envelope',
             path: '/messages',
         },
         {
             id: 5,
             name: 'Lists',
-            icon: 'fa-solid fa-file-lines', // paper with horizontal lines
+            icon: 'fa-regular  fa-file-lines ', // paper with horizontal lines
             path: '/lists',
         },
         {
@@ -177,7 +178,7 @@ const twitterData = {
         {
             id: 7,
             name: 'Communities',
-            icon: 'fa-solid fa-user-group outline', // use solid family glyph and style as outline via CSS
+            icon: 'fa-solid fa-user-group ', // use solid family glyph and style as outline via CSS
             path: '/communities',
         },
         {
