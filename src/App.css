@@ -13,7 +13,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.5px;
     font-weight: 400;
-
+    background-color: #000;
 }
 
 /* App container */
@@ -45,18 +45,27 @@ button {
     height: 100vh;
     background-color: #000;
     color: #fff;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /* Sidebar Left Styles */
 .sidebar-left {
     background-color: #000;
-    width: 250px;
+    width: 285px;
     border-right: 1px solid #151515;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 18px 12px;
 }
+
+/* .content-area {
+    background-color: #151515;
+    width: 600px;
+    height: 100vh;
+    overflow-y: auto;
+} */
 
 /* Navigation list */
 .sidebar-left nav {
@@ -174,9 +183,12 @@ button {
 .user-info {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto; /* allow to shrink/grow inside sidebar */
-    min-width: 0; /* allow children to correctly truncate */
+    flex: 1 1 auto;
+    /* allow to shrink/grow inside sidebar */
+    min-width: 0;
+    /* allow children to correctly truncate */
 }
+
 .user-name {
     font-weight: 600;
     font-size: 16px;
@@ -184,6 +196,7 @@ button {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 .user-handle {
     color: #8899a6;
     font-size: 14px;
