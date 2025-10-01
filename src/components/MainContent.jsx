@@ -12,7 +12,6 @@ const MainContent = ({ profile, tabs, posts, whoToFollowMain }) => {
             <Posts posts={posts} />
             <WhoToFollow suggestions={whoToFollowMain} />
             <Posts posts={posts} />
-
         </main>
     );
 };

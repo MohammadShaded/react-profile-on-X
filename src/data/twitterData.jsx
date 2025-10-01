@@ -12,8 +12,8 @@ const twitterData = {
         postsCount: '2,611',
         followedBy: [
             'Mohamed Kulkhun',
-            'Yazan Alasade',
-            'and 14 others you follow'
+            'Yazan Alasade💫',
+            '14 others you follow'
         ],
     },
 
@@ -94,16 +94,26 @@ const twitterData = {
             name: 'Tailwind CSS',
             handle: '@tailwindcss',
             isFollowing: false,
+            isVerified: true,
+            avatar: "assets/Tailwind CSS.png",
+
+
         },
         {
             name: 'TypeScript',
             handle: '@typescripts',
             isFollowing: false,
+            isVerified: false,
+            avatar: "assets/TypeScript.png",
+
         },
         {
             name: 'freeCodeCamp.org',
             handle: '@freeCodeCamp',
             isFollowing: false,
+            isVerified: true,
+            avatar: "assets/freeCodeCamp.jpg",
+
         },
     ],
 
@@ -116,7 +126,7 @@ const twitterData = {
         },
         {
             category: 'Trending',
-            topic: 'الإنسانا',
+            topic: 'الإنستا',
             posts: '1,411',
         },
         {
@@ -141,7 +151,7 @@ const twitterData = {
         },
         {
             category: 'Trending',
-            topic: 'ابنون',
+            topic: 'ايفون',
             posts: '27.6K',
         },
         {
@@ -151,7 +161,7 @@ const twitterData = {
         },
         {
             category: 'Trending',
-            topic: 'الإعلام_المرتزق',
+            topic: 'الإعلام_العبري',
             posts: '85.4K',
         },
         {

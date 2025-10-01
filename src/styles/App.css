@@ -41,13 +41,12 @@ button {
 
 /* Utility classes */
 .text-muted {
-    color:  var(--color-text-secondary);
+    color: var(--color-text-secondary);
 }
 
 /* Twitter Mockup Page Styles */
 .twitter-mockup-page {
     display: flex;
-    height: 100vh;
     background-color: #000;
     color: var(--color-text-primary);
     max-width: 1280px;
@@ -55,8 +54,11 @@ button {
 }
 
 /* Sidebar Left Styles */
+
 .sidebar-left {
-    background-color: #000;
+    position: sticky;
+    top: 0;
+    height: 100vh;
     width: 285px;
     border-right: 1px solid #151515;
     display: flex;
