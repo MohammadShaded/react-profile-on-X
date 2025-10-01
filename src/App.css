@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-text-secondary: #71767b;
+    --color-text-primary: #e7e9ea;
+}
+
 /* Global body */
 body {
     font-family: 'Libre Franklin', sans-serif;
@@ -36,7 +41,7 @@ button {
 
 /* Utility classes */
 .text-muted {
-    color: #8899a6;
+    color:  var(--color-text-secondary);
 }
 
 /* Twitter Mockup Page Styles */
@@ -44,7 +49,7 @@ button {
     display: flex;
     height: 100vh;
     background-color: #000;
-    color: #fff;
+    color: var(--color-text-primary);
     max-width: 1280px;
     margin: 0 auto;
 }
@@ -130,7 +135,7 @@ button {
 .btn-tweet {
     margin-top: 12px;
     background-color: #1d9bf0;
-    color: #fff;
+    color: var(--color-text-primary);
     padding: 10px 24px;
     font-size: 16px;
     width: 90%;
@@ -143,7 +148,7 @@ button {
 
 /* Follow button (secondary) */
 .btn-follow {
-    background-color: #fff;
+    background-color: var(--color-text-primary);
     color: #1d9bf0;
     padding: 6px 12px;
     font-size: 14px;
@@ -195,7 +200,7 @@ button {
 }
 
 .user-handle {
-    color: #8899a6;
+    color: #71767b;
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;

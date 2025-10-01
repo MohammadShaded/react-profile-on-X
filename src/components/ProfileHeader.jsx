@@ -18,7 +18,8 @@ const ProfileHeader = ({ profile }) => {
                 <img src={coverPhoto} alt="Cover" className="profile-cover" />
                 <img src={profilePhoto} alt="Profile" className="profile-avatar" />
             </div>
-            <ProfileInfo />
+            <ProfileInfo profile={profile} />
+            
         </div>
     );
 };

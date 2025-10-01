@@ -1,16 +1,16 @@
 import {  FaPlus,FaRegBell } from "react-icons/fa";
 
-const BellWithPlus = () => {
+const BellWithPlus = ({className}) => {
   return (
     <div style={{ position: "relative", display: "inline-block" }}>
-      <FaRegBell size={25} />
+      <FaRegBell className={className} />
       <FaPlus 
-        size={12} 
+        className={className+' plus-icon'}
         style={{ 
           position: "absolute", 
           top: "2px", 
           right: "2px", 
-          background: "black", // عشان يبين واضح
+          background: "black",
           borderRadius: "50%" 
         }} 
       />

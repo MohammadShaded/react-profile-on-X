@@ -1,3 +1,6 @@
+.profile-followed-avatar:nth-child(2) {
+    z-index: 2;
+}
 /* Content area */
 
 .main-content {
@@ -29,7 +32,7 @@
 }
 
 .profile-header-top .sub {
-    color: #8899a6;
+    color: var(--color-text-secondary);
     font-size: 14px;
 }
 
@@ -44,12 +47,13 @@
 .profile-avatar {
     width: 150px;
     position: absolute;
-    left: 5px;
+    left: 16px;
     top: 125px;
     border: 4px solid black;
     border-radius: 50%;
 }
 
+/* Profile info section */
 .profile-info {
     padding: 0 16px;
     padding-top: 80px;
@@ -58,29 +62,166 @@
 
 .profile-info-buttons {
     display: flex;
+    align-items: center;
+
     gap: 10px;
 
     position: absolute;
     right: 16px;
     top: 5px;
-    /* background-color: red; */
 }
 
 .profile-info-buttons .icon {
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.profile-info-buttons .icon.plus-icon {
+    font-size: 7px;
 }
 
 .profile-info-buttons .icon-btn {
     background-color: #000;
-    color: white;
-    border: 2px solid #2c2c2c;
+    color: var(--color-text-primary);
+    border: 1px solid #536471;
     padding: 6px 10px;
     border-radius: 50%;
+    height: 34px;
+    width: 34px;
 }
 
 .profile-info-buttons .Following-btn {
     background-color: #000;
-    color: white;
+    color: var(--color-text-primary);
     font-weight: bold;
-    border: 2px solid #2c2c2c;
+    font-size: 16px;
+    border: 1px solid #536471;
+}
+
+.profile-info-buttons .Following-btn:hover {
+    background-color: #151515;
+    border: 2px solid #151515;
+    cursor: pointer;
+}
+
+/* Profile info details (name, username, bio, website, join date, followers) */
+
+.profile-info-details {
+    /* background-color: red  ; */
+}
+
+.profile-info-details .profile-name {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.profile-info-details .profile-username {
+    font-size: 15px;
+    color: var(--color-text-secondary);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    margin-left: 1px;
+}
+
+.profile-info-details .profile-bio {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+
+
+.profile-links-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 8px 0 12px 0;
+}
+
+
+.profile-website {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+.profile-link-icon {
+    font-size: 16px;
+    color: var(--color-text-secondary);
+    vertical-align: middle;
+}
+
+
+.profile-website-link {
+    color: #1d9bf0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.15s;
+}
+
+.profile-website-link:hover {
+    color: #0a7acb;
+}
+
+.profile-join-date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--color-text-secondary);
+    font-size: 15px;
+}
+
+.profile-calendar-icon {
+    font-size: 16px;
+    color: #71767b;
+    vertical-align: middle;
+}
+
+
+.profile-follow-row {
+    display: flex;
+    gap: 18px;
+    margin: 4px 0 0 0;
+    font-size: 15px;
+}
+
+.profile-follow-row span {
+    color: var(--color-text-secondary);
+}
+
+.profile-follow-row strong {
+    color: var(--color-text-primary);
+    font-weight: 600;
+    margin-right: 3px;
+}
+.profile-followed-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.profile-followed-avatars {
+    display: flex;
+    align-items: center;
+    gap: -8px;
+}
+.profile-followed-avatar {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    object-fit: cover;
+    margin-right: -10px;
+    position: relative;
+    z-index: 1;
+}
+.profile-followed-avatar:first-child {
+    z-index: 3;
+}
+.profile-followed-text {
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    margin-left: 5px;
 }

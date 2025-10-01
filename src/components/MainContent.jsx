@@ -7,8 +7,6 @@ const MainContent = ({ profile, posts, whoToFollowMain }) => {
     return (
         <main className="main-content">
             <ProfileHeader profile={profile} />
-            <h1>Main content</h1>
-            <p></p>
         </main>
     );
 };

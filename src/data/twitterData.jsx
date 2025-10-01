@@ -7,11 +7,12 @@ const twitterData = {
         joinDate: 'July 2013',
         followingCount: 267,
         followersCount: '705.1K',
+        website: 'react.dev',
         postsCount: '2,611',
         followedBy: [
             'Mohamed Kulkhun',
             'Yazan Alasade',
-            '14 others'
+            'and 14 others you follow'
         ],
     },
 
