@@ -12,6 +12,7 @@ export default function TwitterMockupPage() {
         posts={twitterData.posts}
         whoToFollowMain={twitterData.whoToFollowMain}
       />
+      
     </div>
   );
 }

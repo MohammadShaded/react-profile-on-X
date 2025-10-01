@@ -36,6 +36,23 @@ const twitterData = {
                 },
             },
         },
+        {
+            id: 2,
+            type: 'Repost',
+            repostedBy: 'React reposted',
+            originalPost: {
+                userName: 'danabramov.bsky.social',
+                userHandle: '@dan_abramov',
+                date: 'May 29',
+                content: 'happy 10th birthday to @reactjs 🥳',
+                stats: {
+                    comments: 46,
+                    retweets: 675,
+                    likes: 3701,
+                    views: '1.1M',
+                },
+            },
+        },
         // Add other posts here if they existed
     ],
 

@@ -1,6 +1,7 @@
 .profile-followed-avatar:nth-child(2) {
     z-index: 2;
 }
+
 /* Content area */
 
 .main-content {
@@ -8,6 +9,11 @@
     height: 100vh;
     overflow-y: auto;
     border-right: 1px solid #151515;
+    scrollbar-width: none;
+
+}
+.main-content::-webkit-scrollbar {
+    display: none;
 }
 
 .profile-header-root {}
@@ -19,7 +25,11 @@
     gap: 30px;
     padding: 10px 16px;
     padding-bottom: 0;
-
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(12px);
+    z-index: 100;
 }
 
 .profile-header-top .icon {
@@ -196,17 +206,20 @@
     font-weight: 600;
     margin-right: 3px;
 }
+
 .profile-followed-row {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 10px;
 }
+
 .profile-followed-avatars {
     display: flex;
     align-items: center;
     gap: -8px;
 }
+
 .profile-followed-avatar {
     width: 22px;
     height: 22px;
@@ -217,13 +230,18 @@
     position: relative;
     z-index: 1;
 }
+
 .profile-followed-avatar:first-child {
     z-index: 3;
 }
+
 .profile-followed-text {
     color: var(--color-text-secondary);
     font-size: 14px;
-    margin-left: 5px;}
+    margin-left: 5px;
+}
+
+
 
 /* ProfileTabs styles */
 .profile-tabs-nav {
@@ -231,6 +249,7 @@
     margin-top: 18px;
     margin-bottom: 0;
 }
+
 .profile-tabs-list {
     display: flex;
     justify-content: space-between;
@@ -239,6 +258,7 @@
     padding: 0 0 0 0;
     margin: 0;
 }
+
 .profile-tab-item {
     flex: 1 1 0;
     text-align: center;
@@ -250,14 +270,17 @@
     position: relative;
     transition: color 0.15s;
 }
+
 .profile-tab-item.active {
     color: #fff;
     font-weight: 700;
 }
+
 .profile-tab-label {
     position: relative;
     z-index: 2;
 }
+
 .profile-tab-underline {
     position: absolute;
     left: 50%;
@@ -271,4 +294,86 @@
 }
 
 
-/* Tabs (Tweets, Tweets & replies, Media, Likes) */
+
+/* Tweet/Post styles */
+.tweet-card {
+    border-bottom: 1px solid #222;
+    padding: 16px 10px;
+    background: transparent;
+}
+
+.tweet-repost-label {
+    color: #71767b;
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+    margin-left: 56px;
+}
+
+.tweet-main-row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tweet-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.tweet-content {
+    flex: 1;
+}
+
+.tweet-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1rem;
+}
+
+.tweet-username {
+    font-weight: bold;
+    color: var(--color-text-primary);
+}
+
+.tweet-handle,
+.tweet-date {
+    color: #71767b;
+    font-size: 0.95em;
+}
+
+.tweet-text {
+    margin: 4px 0 20px 0;
+    color: var(--color-text-primary);
+}
+
+.tweet-actions-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 8px;
+    padding-right: 15px;
+}
+
+.tweet-action-btn {
+    background: none;
+    border: none;
+    color: #71767b;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.tweet-action-btn:hover {
+    color: #1d9bf0;
+}
+
+
+
+
+
+
