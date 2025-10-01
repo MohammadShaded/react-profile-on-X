@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './NavBar';
+import NavBar from './layout/NavBar';
 import TweetButton from './Common/TweetButton';
-import UserProfileMinimal from './UserProfileMinimal';
+import UserProfileMinimal from './layout/UserProfileMinimal';
 import avatarImg from '../assets/avatar.jpg';
 
 const SidebarLeft = ({ navigationItems }) => {

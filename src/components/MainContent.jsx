@@ -1,9 +1,9 @@
 import React from 'react';
-import ProfileHeader from './ProfileHeader';
-import './../MainContent.css'
-import ProfileTabs from './ProfileTabs';
-import Posts from './Posts';
-import WhoToFollow from './WhoToFollow';
+import ProfileHeader from './profile/ProfileHeader';
+import './../styles/MainContent.css';
+import ProfileTabs from './profile/ProfileTabs';
+import Posts from './tweet/Posts';
+import WhoToFollow from './suggestions/WhoToFollow';
 const MainContent = ({ profile, tabs, posts, whoToFollowMain }) => {
     return (
         <main className="main-content">

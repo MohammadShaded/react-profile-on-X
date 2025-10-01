@@ -1,6 +1,6 @@
 
 import { FaUser } from "react-icons/fa";
-import FollowButton from "./Common/FollowButton";
+import FollowButton from "../Common/FollowButton";
 const FollowSuggestionCard = ({ suggestion }) => (
   <div className="follow-suggestion-card">
     <div className="follow-suggestion-meta">

@@ -1,7 +1,7 @@
 import React from 'react';
-import Button from './Common/Button';
+import Button from '../Common/Button';
 import { FaEllipsisH } from "react-icons/fa";
-import BellWithPlus from './Common/BellWithPlus';
+import BellWithPlus from '../Common/BellWithPlus';
 import { FaLink, FaRegCalendarAlt } from "react-icons/fa";
 const ProfileInfo = ({ profile }) => {
     // Import icons from react-icons

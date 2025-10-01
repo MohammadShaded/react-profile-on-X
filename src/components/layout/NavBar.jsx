@@ -1,7 +1,7 @@
 import React from 'react';
-import twitterData from '../data/twitterData.jsx';
+import twitterData from '../../data/twitterData.jsx';
 import NavItem from './NavItem';
-import logoWhite from '../assets/logo-white.png';
+import logoWhite from '../../assets/logo-white.png';
 
 const NavBar = ({navigationItems}) => {
     return (

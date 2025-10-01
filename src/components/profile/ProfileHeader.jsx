@@ -1,8 +1,8 @@
 import React from "react";
 import { FaArrowLeft } from "react-icons/fa";
 import ProfileInfo from "./ProfileInfo";
-import coverPhoto from "../assets/react-cover.jpg"; 
-import profilePhoto from "../assets/react-logo.png"; 
+import coverPhoto from "../../assets/react-cover.jpg"; 
+import profilePhoto from "../../assets/react-logo.png"; 
 
 const ProfileHeader = ({ profile }) => {
     return (
