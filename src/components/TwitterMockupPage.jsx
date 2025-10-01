@@ -8,6 +8,7 @@ export default function TwitterMockupPage() {
       <SidebarLeft navigationItems={twitterData.navigationItems} />
       <MainContent
         profile={twitterData.profile}
+        tabs={twitterData.tabs}
         posts={twitterData.posts}
         whoToFollowMain={twitterData.whoToFollowMain}
       />

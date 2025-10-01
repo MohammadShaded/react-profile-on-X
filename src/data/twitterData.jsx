@@ -1,4 +1,5 @@
 const twitterData = {
+
     // 1. Data for the main React profile page
     profile: {
         name: 'React',
@@ -194,6 +195,12 @@ const twitterData = {
             icon: 'fa-solid fa-ellipsis-h icon-circle', // dots inside a circular background (styled in CSS)
             path: '/more',
         },
+    ],
+    tabs: [
+        { id: "posts", label: "Posts" },
+        { id: "replies", label: "Replies" },
+        { id: "media", label: "Media" },
+        { id: "likes", label: "Likes" },
     ],
 
 };

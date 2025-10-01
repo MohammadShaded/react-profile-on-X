@@ -1,8 +1,8 @@
 import React from "react";
 import { FaArrowLeft } from "react-icons/fa";
 import ProfileInfo from "./ProfileInfo";
-import coverPhoto from "../assets/react-cover.jpg"; // Replace with your cover photo path
-import profilePhoto from "../assets/react-logo.png"; // Replace with your profile photo path
+import coverPhoto from "../assets/react-cover.jpg"; 
+import profilePhoto from "../assets/react-logo.png"; 
 
 const ProfileHeader = ({ profile }) => {
     return (
@@ -19,7 +19,6 @@ const ProfileHeader = ({ profile }) => {
                 <img src={profilePhoto} alt="Profile" className="profile-avatar" />
             </div>
             <ProfileInfo profile={profile} />
-            
         </div>
     );
 };
