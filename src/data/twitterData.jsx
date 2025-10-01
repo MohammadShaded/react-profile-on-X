@@ -63,7 +63,9 @@ const twitterData = {
             handle: '@freeCodeCamp',
             isFollowing: false,
             description: "We're a community of millions of people who are building new skills and getting new jobs together. A 501(c)(3) public charity. Tweets by @goodeyrem.",
-            related: 'Node.js and 5 others follow',
+            related: 'Node.js and 9 others follow',
+            isVerified: true,
+            avatar: "assets/freeCodeCamp.jpg",
         },
         {
             name: 'TypeScript',
@@ -71,6 +73,8 @@ const twitterData = {
             isFollowing: false,
             description: 'TypeScript is a language for application-scale JavaScript development. It’s a typed superset of JavaScript that compiles to plain JavaScript.',
             related: 'Node.js and 5 others follow',
+            isVerified: false,
+            avatar: "assets/TypeScript.png",
         },
         {
             name: 'Tailwind CSS',
@@ -78,6 +82,9 @@ const twitterData = {
             isFollowing: false,
             description: 'The utility-first CSS framework. Rapidly build modern websites, without ever leaving your HTML.',
             related: 'Yazzed Obaid and 3 others follow',
+            isVerified: true,
+            avatar: "assets/Tailwind CSS.png",
+
         },
     ],
 

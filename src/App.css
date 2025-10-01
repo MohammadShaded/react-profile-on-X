@@ -149,8 +149,9 @@ button {
 /* Follow button (secondary) */
 .btn-follow {
     background-color: var(--color-text-primary);
-    color: #1d9bf0;
-    padding: 6px 12px;
+    color: #0f1419;
+    font-weight: 600;
+    padding: 6px 18px;
     font-size: 14px;
     border-radius: 20px;
 }
