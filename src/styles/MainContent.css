@@ -6,7 +6,6 @@
 
 .main-content {
     width: 600px;
-    height: 100vh;
     overflow-y: auto;
     border-right: 1px solid #151515;
     scrollbar-width: none;
