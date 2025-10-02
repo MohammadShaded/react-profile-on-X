@@ -1,0 +1,70 @@
+/* 
+    IconsStyles.css
+
+    This stylesheet defines custom styles for navigation icons used in the app's sidebar or header.
+    It includes:
+    - Outline icon styles to mimic Twitter's look.
+    - Circle icon styles for special icons (e.g., 'More').
+    - Font size and hover effects for navigation items.
+    - Active state styles with gradients and shadows for selected navigation items.
+    - Color adjustments for icons and text in different states.
+*/
+
+
+/* Outline icons: make icon stroke visible and inside black to simulate Twitter's outline icons */
+.nav-icon.outline {
+    /* keep icon color white on dark background */
+    color: #fff;
+    /* reduce fill by lowering opacity so it looks unfilled */
+    opacity: 0.95;
+}
+
+/* For icons that are inherently solid vs regular, Font Awesome uses different families.
+   We also allow an extra helper class to force a dark inner background for icon shapes */
+
+
+/* Circle style for 'More' icon */
+.nav-icon.icon-circle {
+    background: #000; /* black fill */
+    border: 2px solid #fff; /* white outline */
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* icon dots white */
+}
+
+.nav-name {
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    background: rgba(255,255,255,0.06);
+}
+
+/* Active item (rounded pill with subtle shadow) */
+.nav-item.active .nav-link {
+    background: linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+/* Highlighted text/icon color for active can be slightly brighter */
+.nav-item.active .nav-link,
+.nav-item.active .nav-link .nav-icon {
+    color: #fff;
+}
+
+
+.bell-plus-root {
+  position: relative;
+  display: inline-block;
+}
+.plus-icon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: black;
+  border-radius: 50%;
+}
