@@ -6,7 +6,6 @@ import './assets/IconsStyles.css'
 import TwitterMockupPage from './components/TwitterMockupPage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
