@@ -55,3 +55,16 @@
 .nav-item.active .nav-link .nav-icon {
     color: #fff;
 }
+
+
+.bell-plus-root {
+  position: relative;
+  display: inline-block;
+}
+.plus-icon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background: black;
+  border-radius: 50%;
+}
