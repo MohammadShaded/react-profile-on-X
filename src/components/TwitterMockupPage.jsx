@@ -6,7 +6,7 @@ import twitterData from "../data/twitterData";
 export default function TwitterMockupPage() {
   return (
     <div className="twitter-mockup-page">
-      <div className="sidebar-left-container"><SidebarLeft navigationItems={twitterData.navigationItems} /></div>
+      <SidebarLeft navigationItems={twitterData.navigationItems} />
       <MainContent
         profile={twitterData.profile}
         tabs={twitterData.tabs}
