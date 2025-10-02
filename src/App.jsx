@@ -8,10 +8,7 @@ import TwitterMockupPage from './components/TwitterMockupPage'
 function App() {
 
   return (
-    <>
-    
       <TwitterMockupPage />
-    </>
   )
 }
 
