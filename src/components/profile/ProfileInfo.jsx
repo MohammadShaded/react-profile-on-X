@@ -46,7 +46,7 @@ const ProfileInfo = ({ profile }) => {
                         <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar3" className="profile-followed-avatar" />
                     </span>
                     <span className="profile-followed-text">
-                        Followed by {profile.followedBy && profile.followedBy.length > 0 ? profile.followedBy.join(', ') : ''}
+                        Followed by {(profile.followedBy || []).join(', ')}
                     </span>
                 </div>
 
