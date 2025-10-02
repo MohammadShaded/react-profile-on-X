@@ -10,8 +10,8 @@ const NavBar = ({navigationItems}) => {
                 <img src={logoWhite} alt="X logo" />
             </div>
             <ul>
-                {navigationItems.map((item, index) => (
-                    <NavItem key={index} {...item} />
+                {navigationItems.map((item) => (
+                    <NavItem key={item.id} {...item} />
                 ))}
             </ul>
         </nav>
