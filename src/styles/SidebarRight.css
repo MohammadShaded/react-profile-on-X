@@ -1,0 +1,220 @@
+.sidebar-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  min-width: 375px;
+  max-width: 400px;
+  padding: 16px 0 0 16px;
+  background: black;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+
+.searchbox-root {
+  display: flex;
+  align-items: center;
+  background: #202327;
+  border-radius: 999px;
+  padding: 0 16px;
+  min-height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.searchbox-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+    font-size: 0.9rem;
+
+}
+.searchbox-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--color-text-primary);
+  font-size: 1.1rem;
+  flex: 1;
+}
+.searchbox-input::placeholder {
+  color: #71767b;
+  font-size: 0.9rem;
+}
+
+.you-might-like-section {
+  background: #16181c;
+  border-radius: 16px;
+  padding: 12px 0 0 0;
+  margin-top: 12px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.you-might-like-title {
+  color: #e7e9ea;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 8px 16px;
+}
+.you-might-like-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.follow-suggestion-card-small {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 12px;
+  background: none;
+  border: none;
+}
+.follow-suggestion-avatar-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #222327;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.follow-suggestion-img-small {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.follow-suggestion-info-small {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.follow-suggestion-name-small {
+  color: #e7e9ea;
+  font-weight: 600;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.verified-icon-small {
+  color: #1d9bf0;
+  font-size: 0.95em;
+  margin-left: 2px;
+}
+.follow-suggestion-handle-small {
+  color: #71767b;
+  font-size: 0.95rem;
+}
+.follow-btn-small {
+  background: #e7e9ea;
+  color: #0f1419;
+  border: none;
+  border-radius: 999px;
+  padding: 6px 18px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.follow-btn-small:hover {
+  background: #d7dbdc;
+}
+ .show-more-link {
+  display: block;
+  color: #1d9bf0;
+  font-size: 0.98rem;
+  font-weight: 500;
+  margin: 8px 0 12px 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.trends-for-you-section {
+  background: #16181c;
+  border-radius: 16px;
+  padding: 12px 0 0 0;
+  margin-top: 12px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.trends-for-you-title {
+  color: #e7e9ea;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 8px 16px;
+}
+.trends-for-you-list {
+  display: flex;
+  flex-direction: column;
+}
+.trend-item {
+  padding: 10px 16px;
+  border: none;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  cursor: pointer;
+}
+.trend-item:hover {
+  background: #1a1d21;
+}
+.trend-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.95rem;
+  color: #71767b;
+}
+.trend-category {
+  font-size: 0.95rem;
+  color: #71767b;
+}
+.trend-more-icon {
+  color: #71767b;
+  font-size: 1em;
+  cursor: pointer;
+}
+.trend-title {
+  color: #e7e9ea;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 2px;
+}
+.trend-subtitle {
+  color: #e7e9ea;
+  font-size: 0.98rem;
+  font-weight: 500;
+}
+.trend-posts {
+  color: #71767b;
+  font-size: 0.95rem;
+}
+
+.sidebar-right-footer {
+  margin-top: 24px;
+  padding: 0 16px 16px 16px;
+  color: #71767b;
+  font-size: 0.8rem;
+  background: transparent;
+  align-items: flex-start;
+}
+.sidebar-right-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+.footer-link {
+  color: #71767b;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: color 0.2s;
+}
+.footer-link:hover {
+  color: #1d9bf0;
+  text-decoration: underline;
+}
+
+
